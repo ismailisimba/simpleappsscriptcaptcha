@@ -61,6 +61,7 @@ function firstDisp(resObj){
 }
 
 
+
 function checkAnswer(){
     let val = this;
     val.removeEventListener("input",checkAnswer);
