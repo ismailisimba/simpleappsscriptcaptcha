@@ -45,6 +45,7 @@ async function getCaptchaObj(action,data){
     return returnVal; 
 };
 
+
 function firstDisp(resObj){
     let captchaItemsCont = document.querySelectorAll(".captchaitems");
     let img1 = captchaItemsCont[0].querySelectorAll("img")[0];
